@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fa;
+}
+
+.app {
+  padding: 20px;
+}
+
+.app h1 {
+  text-align: center;
+  color: #243b53;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.dashboard {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #00000015;
+  min-width: 0;
+}
+
+.dashboard h2 {
+  color: #2463a6;
+}
+
+.todo-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
